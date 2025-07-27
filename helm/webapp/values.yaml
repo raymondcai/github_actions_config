@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: raymondcai/ubuntu-flask
-  tag: latest
+  tag: 1.0
   pullPolicy: IfNotPresent
 
 service:
