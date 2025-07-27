@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: raymondcai/ubuntu-flask
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 5000
+
+containerPort: 5000
