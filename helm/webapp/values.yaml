@@ -6,8 +6,10 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
-  port: 80
-  targetPort: 5000
+  type: NodePort
+  port: 80          # Cluster port
+  targetPort: 5000  # Container port
+  nodePort: 30080   # Exposed node port (between 30000–32767)
 
 containerPort: 5000
+
