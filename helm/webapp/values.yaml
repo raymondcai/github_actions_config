@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: raymondcai/ubuntu-flask
-  tag: 9ef3dab1a97e90ca85e688a9c0988578fd5f2315
+  tag: b89129de712b79207debd180a80277ee6b5d3b17
   pullPolicy: IfNotPresent
 
 service:
